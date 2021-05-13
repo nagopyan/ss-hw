@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="..\CSS\styles_index.css">
+    
+    <title>First WebApp!</title>
+</head>
+
+<body>
+
+<h1>Welcome!</h1>
+
+<p id="nHeader">Adopt a virtual pet.</p> 
+
+<p id="clock"></p>
+
+<img src="../IMG/frame.png" alt="frame" id="frame">
+
+<img src="../IMG/sun.png" id="sun" alt="sun" class="sun">
+<img src="../IMG/pet_house.png" id="house" alt="house">
+
+<img src="../IMG/btn_adopt.png" id="adopt" alt="adopt_pet" onclick="selectPetType()">
+
+
+<form id="formType">
+    Select your Pet type:
+    <select id="petType">
+      <option value="dog">Doggie</option>
+      <option value="cat">Kitty</option>
+    </select>
+  </form>
+
+  <form id="formColor">
+    Select your Pet's Color:
+    <select id="petColor">
+      <option value="gray">Gray</option>
+      <option value="brown">Brown</option>
+    </select>
+  </form>
+
+
+<script src="..\JS\script_index.js"></script>
+<script src="../JS/script_index_sun.js"></script>
+
+</body>
+</html>
