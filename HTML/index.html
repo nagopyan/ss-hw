@@ -2,23 +2,46 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="D:\Git\FirstProject\CSS\styles.css"> <!-- CSS attach -->
+    <link rel="stylesheet" href="..\CSS\styles_index.css">
     
-    <title>First WebApp!</title> <!-- Tab title -->
+    <title>First WebApp!</title>
 </head>
 
 <body>
 
-<h1>This is how it starts...</h1>  <!-- Header -->
+<h1>Welcome!</h1>
 
-<p id="nHeader">I did a thing</p> <!-- Static paragraph -->
+<p id="nHeader">Adopt a virtual pet.</p> 
 
-<img id="ball" src="D:\Git\FirstProject\IMG\ball.png" alt="ball" class="ball">  <!-- IMG attach -->
+<p id="clock"></p>
 
-<p id="paragraph"></p>  <!-- JS driven paragraph -->
+<img src="../IMG/frame.png" alt="frame" id="frame">
 
-<script src="D:\Git\FirstProject\JS\script.js"></script>   <!-- JS attach -->
-<script src="D:\Git\FirstProject\JS\img.js"></script>   <!-- JS attach -->
+<img src="../IMG/sun.png" id="sun" alt="sun" class="sun">
+<img src="../IMG/pet_house.png" id="house" alt="house">
+
+<img src="../IMG/btn_adopt.png" id="adopt" alt="adopt_pet" onclick="selectPetType()">
+
+
+<form id="formType">
+    Select your Pet type:
+    <select id="petType">
+      <option value="dog">Doggie</option>
+      <option value="cat">Kitty</option>
+    </select>
+  </form>
+
+  <form id="formColor">
+    Select your Pet's Color:
+    <select id="petColor">
+      <option value="gray">Gray</option>
+      <option value="brown">Brown</option>
+    </select>
+  </form>
+
+
+<script src="..\JS\script_index.js"></script>
+<script src="../JS/script_index_sun.js"></script>
 
 </body>
 </html>

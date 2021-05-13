@@ -1,0 +1,52 @@
+
+body {
+  background-image: url(../IMG/background.png);
+  background-size: fill;
+}
+
+#frame {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+#btn_start_again {
+    position: absolute;
+    display: block;
+    left: 1270px;
+    top: 440px;
+    z-index: 2;
+  }
+
+  #house {
+    position: absolute;
+    top: 450px;
+    left: 250px;
+  }
+
+  #reaper {
+    position: absolute;
+    left: 900px;
+    top: 500px;
+  }
+
+  #schyte {
+    position: absolute;
+    left: 890px;
+    top: 550px;
+  }
+
+  #cloud1 {
+    position: absolute;
+    left: 1100px;
+    top: 150px;
+  }
+
+  #cloud2 {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+  }
