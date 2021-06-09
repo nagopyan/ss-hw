@@ -1,3 +1,24 @@
+<<<<<<< HEAD:JS/script_end_cloud1.js
+
+var myVar = setInterval(myTimer, 150); // refresh speed
+
+$(document).ready(function() {
+    $('#cloud1').fadeIn(500);
+});
+
+function myTimer() {
+
+    $(document).ready(function() {
+        $('#cloud1').animate({
+            top: '50px',
+        }, 1500);
+
+        $('#cloud1').animate({
+            top: '0px'
+        }, 1700);
+    });
+
+=======
 
 var circle = document.querySelector(".cloud1"); //attach to class
 var moveBy = 10; // change amount
@@ -34,4 +55,5 @@ function myTimer() {
         }
     }
 
+>>>>>>> 6b83958e72d3c140d39c72c836139ead64202874:js/script_end_cloud1.js
 }
