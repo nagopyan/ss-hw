@@ -1,3 +1,124 @@
+<<<<<<< HEAD:CSS/styles_play.css
+body {
+    background-image: url(../IMG/background.png);
+    background-size: fill;
+  }
+
+  #frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #sun {
+    position: absolute;
+    top:  25px;
+    right: 25px;
+    width: 325px;
+    height: 525px;
+    display: none;
+  }
+  
+#house {
+    position: absolute;
+    top: 450px;
+    left: 250px;
+    }
+
+
+#btn_food {
+    position: absolute;
+    left: 1450px;
+    top: 600px;
+    z-index: 3;
+    background-image: url("../img/btn_food.png");
+    background-size: contain;
+    width: 360px;
+    height: 140px;
+    }
+
+#btn_food:hover {
+    opacity: 0.75;
+    background-size: contain;
+    background-image: url("../img/btn_food2.png");
+}
+
+#food_icon {
+    position: absolute;
+    top: 50px;
+    left: 1070px;
+}
+
+#food_container {
+    position: absolute;
+    left: 1010px;
+    top: 130px;
+    }
+
+#btn_water {
+    position: relative;
+    left: 1450px;
+    top: 700px;
+    z-index: 3;
+    background-image: url("../img/btn_water.png");
+    background-size: contain;
+    width: 350px;
+    height: 130px;
+    }
+
+#btn_water:hover {
+    opacity: 0.75;
+    background-size: contain;
+    background-image: url("../img/btn_water2.png");
+}
+
+#water_icon {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+}
+
+#water_container {
+    position: absolute;
+    left: 730px;
+    top: 130px;
+    }
+
+meter {
+    width: 200px;
+    height: 50px;
+}
+
+#pet {
+    position: absolute;
+    left: 775px;
+    top: 550px;
+}
+
+#tear {
+    position: absolute;
+    top: 645px;
+    left: 960px;
+    z-index: 5;
+}
+
+#angry {
+    position: absolute;
+    top: 590px;
+    left: 970px;
+    z-index: 5;
+}
+
+.btn:hover,
+.btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+=======
 body {
     background-image: url(../IMG/background.png);
     background-size: fill;
@@ -103,3 +224,4 @@ meter {
     left: 950px;
     z-index: 5;
 }
+>>>>>>> 6b83958e72d3c140d39c72c836139ead64202874:css/styles_play.css

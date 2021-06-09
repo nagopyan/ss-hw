@@ -1,3 +1,139 @@
+<<<<<<< HEAD:CSS/styles_end.css
+
+body {
+  background-image: url(../IMG/background.png);
+  background-size: fill;
+}
+
+#frame {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+#msg {
+  position: absolute;
+  image: block;
+  left: 650px;
+  top: 430px;
+  z-index: 4;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: purple;
+  text-shadow: 2px 2px orange;
+}
+
+#btn_start_again {
+    position: absolute;
+    display: block;
+    left: 1270px;
+    top: 440px;
+    z-index: 2;
+  }
+
+  #btn_start_again:hover {
+    opacity: 0.75;
+  }
+
+  #btn_start_againC {
+    display: block;
+    margin: auto;
+    width: 30%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  #btn_start_againC:hover {
+    opacity: 0.75;
+  }
+
+  #house {
+    position: absolute;
+    top: 450px;
+    left: 250px;
+  }
+
+  #reaper {
+    position: absolute;
+    left: 900px;
+    top: 500px;
+  }
+
+  #schyte {
+    position: absolute;
+    left: 890px;
+    top: 550px;
+  }
+
+  #cloud1 {
+    position: absolute;
+    right: 0%;
+  }
+
+  #cloud2 {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+  }
+
+  .btn:hover,
+.btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: lightblue;
+  border-radius: 20px;
+  text-align: center;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.redText {
+  color: blue;
+}
+=======
 
 body {
   background-image: url(../IMG/background.png);
@@ -63,3 +199,4 @@ body {
     left: 50px;
     top: 10px;
   }
+>>>>>>> 6b83958e72d3c140d39c72c836139ead64202874:css/styles_end.css
