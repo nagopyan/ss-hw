@@ -32,22 +32,30 @@ body {
     left: 1270px;
     top: 440px;
     z-index: 2;
+    background-image: url("../img/btn_start_again.png");
+    background-size: contain;
+    width: 340px;
+    height: 145px;
   }
 
   #btn_start_again:hover {
     opacity: 0.75;
+    background-image: url("../img/btn_start_again2.png");
   }
 
   #btn_start_againC {
     display: block;
     margin: auto;
-    width: 30%;
     max-width: 350px;
-    height: auto;
+    background-image: url("../img/btn_start_again.png");
+    background-size: contain;
+    width: 340px;
+    height: 140px;
   }
 
   #btn_start_againC:hover {
     opacity: 0.75;
+    background-image: url("../img/btn_start_again2.png");
   }
 
   #house {
@@ -106,9 +114,9 @@ body {
   border-radius: 20px;
   text-align: center;
   margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #888;
-  width: 40%; /* Could be more or less, depending on screen size */
+  width: 60%; /* Could be more or less, depending on screen size */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-weight: bold;
