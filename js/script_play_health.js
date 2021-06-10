@@ -108,7 +108,7 @@ function giveWater() {
 function moodSad() {
     if(cry == false && mad == false) {
         cry = true;
-        var sad = document.createElement("IMG");
+        let sad = document.createElement("IMG");
         sad.setAttribute("src", "../IMG/tear.png");
         sad.setAttribute("id", "tear");
         sad.setAttribute("alt", "tear");
@@ -123,7 +123,7 @@ function moodAngry() {
         cry = false;
         mad = true;
 
-        var angry = document.createElement("IMG");
+        let angry = document.createElement("IMG");
         angry.setAttribute("src", "../IMG/angry.png");
         angry.setAttribute("id", "angry");
         angry.setAttribute("alt", "angry");

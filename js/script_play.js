@@ -5,6 +5,7 @@ var petSelect = "dog_brown";
 var petType = localStorage.getItem("petType");
 var petColor = localStorage.getItem("petColor");
 
+
 function definePet() {
     if(petType == "dog") {
         type = "dog_";
@@ -27,9 +28,9 @@ function createPet() {
     x.setAttribute("id", "pet");
     x.setAttribute("alt", "cat_brown");
     document.body.appendChild(x);
-    }
+}
 
 window.addEventListener('load', (event) => {
     definePet();
     createPet();
-  });
+});

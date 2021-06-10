@@ -1,9 +1,5 @@
 
-var myVar = setInterval(myTimer, 150); // refresh speed
-
-$(document).ready(function() {
-    $('#cloud1').fadeIn(500);
-});
+let myVar = setInterval(myTimer, 150); // refresh speed
 
 function myTimer() {
 

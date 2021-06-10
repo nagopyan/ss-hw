@@ -1,5 +1,5 @@
 
-var myVarSun = setInterval(myTimerSun, 200);
+let myVarSun = setInterval(myTimerSun, 200);
 
 $(document).ready(function() {
     $('#sun').fadeIn(500);

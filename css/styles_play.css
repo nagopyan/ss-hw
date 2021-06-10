@@ -1,31 +1,31 @@
 body {
     background-image: url(../IMG/background.png);
     background-size: fill;
-  }
+}
 
-  #frame {
+#frame {
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: 2;
     height: 100%;
     width: 100%;
-  }
+}
   
-  #sun {
+#sun {
     position: absolute;
     top:  25px;
     right: 25px;
     width: 325px;
     height: 525px;
     display: none;
-  }
+}
   
 #house {
     position: absolute;
     top: 450px;
     left: 250px;
-    }
+}
 
 
 #btn_food {
@@ -37,7 +37,7 @@ body {
     background-size: contain;
     width: 360px;
     height: 140px;
-    }
+}
 
 #btn_food:hover {
     opacity: 0.75;
@@ -55,7 +55,7 @@ body {
     position: absolute;
     left: 1010px;
     top: 130px;
-    }
+}
 
 #btn_water {
     position: relative;
@@ -66,7 +66,7 @@ body {
     background-size: contain;
     width: 350px;
     height: 130px;
-    }
+}
 
 #btn_water:hover {
     opacity: 0.75;
@@ -84,7 +84,7 @@ body {
     position: absolute;
     left: 730px;
     top: 130px;
-    }
+}
 
 meter {
     width: 200px;

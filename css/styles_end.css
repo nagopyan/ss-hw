@@ -27,65 +27,64 @@ body {
 }
 
 #btn_start_again {
-    position: absolute;
-    display: block;
-    left: 1270px;
-    top: 440px;
-    z-index: 2;
-    background-image: url("../img/btn_start_again.png");
-    background-size: contain;
-    width: 340px;
-    height: 145px;
-  }
+  position: absolute;
+  display: block;
+  left: 1270px;
+  top: 440px;
+  z-index: 2;
+  background-image: url("../img/btn_start_again.png");
+  background-size: contain;
+  width: 340px;
+  height: 145px;
+}
 
-  #btn_start_again:hover {
-    opacity: 0.75;
-    background-image: url("../img/btn_start_again2.png");
-  }
+#btn_start_again:hover {
+  opacity: 0.75;
+  background-image: url("../img/btn_start_again2.png");
+}
 
-  #btn_start_againC {
-    display: block;
-    margin: auto;
-    max-width: 350px;
-    background-image: url("../img/btn_start_again.png");
-    background-size: contain;
-    width: 340px;
-    height: 140px;
-  }
+#btn_start_againC {
+  display: block;
+  margin: auto;
+  max-width: 350px;
+  background-image: url("../img/btn_start_again.png");
+  background-size: contain;
+  width: 340px;
+  height: 140px;
+}
 
-  #btn_start_againC:hover {
-    opacity: 0.75;
-    background-image: url("../img/btn_start_again2.png");
-  }
+#btn_start_againC:hover {
+  opacity: 0.75;
+  background-image: url("../img/btn_start_again2.png");
+}
 
-  #house {
-    position: absolute;
-    top: 450px;
-    left: 250px;
-  }
+#house {
+  position: absolute;
+  top: 450px;
+  left: 250px;
+}
 
-  #reaper {
-    position: absolute;
-    left: 900px;
-    top: 500px;
-  }
+#reaper {
+  position: absolute;
+  left: 900px;
+  top: 500px;
+}
 
-  #schyte {
-    position: absolute;
-    left: 890px;
-    top: 550px;
-  }
+#schyte {
+  position: absolute;
+  left: 890px;
+  top: 550px;
+}
 
-  #cloud1 {
-    position: absolute;
-    right: 0%;
-  }
+#cloud1 {
+  position: absolute;
+  right: 0%;
+}
 
-  #cloud2 {
-    position: absolute;
-    left: 50px;
-    top: 10px;
-  }
+#cloud2 {
+  position: absolute;
+  left: 50px;
+}
 
   .btn:hover,
 .btn:focus {
